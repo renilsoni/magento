@@ -1,0 +1,129 @@
+<?xml version="1.0" ?>
+<config>
+	<modules>
+		<Ccc_User>
+			<version>0.0.3</version>
+		</Ccc_User>
+	</modules>
+
+	<admin>
+		<routers>
+			<adminhtml>
+				<args>
+					<modules>
+						<ccc_user>Ccc_User_Adminhtml</ccc_user>
+					</modules>
+				</args>
+			</adminhtml>
+		</routers>
+	</admin>
+
+	<global>
+		<helpers>
+			<user>
+				<class>Ccc_User_Helper</class>
+			</user>
+		</helpers>
+
+		<blocks>
+			<user>
+				<class>Ccc_User_Block</class>
+			</user>
+		</blocks>
+
+		<models>
+			<user>
+				<class>Ccc_User_Model</class>
+				<resourceModel>user_resource</resourceModel>
+			</user>
+			<user_resource>
+				<class>Ccc_User_Model_Resource</class>
+				<entities>
+					<user>
+						<table>user</table>
+					</user>
+					<user_datetime>
+						<table>user_datetime</table>
+					</user_datetime>
+					<user_varchar>
+						<table>user_varchar</table>
+					</user_varchar>
+					<user_char>
+						<table>user_char</table>
+					</user_char>
+					<user_text>
+						<table>user_text</table>
+					</user_text>
+					<user_int>
+						<table>user_int</table>
+					</user_int>
+					<user_decimal>
+						<table>user_decimal</table>
+					</user_decimal>
+					<eav_attribute>
+						<table>user_eav_attriute</table>
+					</eav_attribute>
+				</entities>
+			</user_resource>
+		</models>
+
+		<resources>
+			<user_setup>
+				<setup>
+					<module>Ccc_User</module>
+					<class>Ccc_User_Model_Resource_Setup</class>
+				</setup>
+			</user_setup>
+		</resources>
+
+	</global>
+
+	<adminhtml>
+		<menu>
+			<user>
+				<title>User</title>
+				<sort_order>81</sort_order>
+				<children>
+					<user>
+						<title>Manage User</title>
+						<sort_order>0</sort_order>
+						<action>adminhtml/user</action>
+					</user>
+					<user_attribute>
+						<title>Manage Attribute</title>
+						<sort_order>1</sort_order>
+						<action>*/user_attribute</action>
+					</user_attribute>
+					<user_set>
+						<title>Manage Attribute Set</title>
+						<sort_order>1</sort_order>
+						<action>*/user_set</action>
+					</user_set>
+				</children>
+			</user>
+		</menu>
+		<acl>
+			<resources>
+				<all>
+					<title>Allow Everything</title>
+				</all>
+				<admin>
+					<children>
+						<user>
+							<title>Manage Users</title>
+							<sort_order>0</sort_order>
+						</user>
+						<user_attribute>
+							<title>Manage Attributes</title>
+							<sort_order>1</sort_order>
+						</user_attribute>
+						<user_set>
+							<title>Manage Attribute Set</title>
+							<sort_order>2</sort_order>
+						</user_set>
+					</children>
+				</admin>
+			</resources>
+		</acl>
+	</adminhtml>
+</config>

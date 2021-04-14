@@ -1,0 +1,12 @@
+a:5:{i:0;s:105:"Invalid method Mage_Adminhtml_Model_Session::addFailure(Array
+(
+    [0] => Record Delete Successfully
+)
+)";i:1;s:888:"#0 C:\xampp\htdocs\magento\app\code\local\Mage\Module1\controllers\Adminhtml\Module1Controller.php(52): Varien_Object->__call('addFailure', Array)
+#1 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(418): Mage_Module1_Adminhtml_Module1Controller->deleteAction()
+#2 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Router\Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('delete')
+#3 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#4 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\App.php(365): Mage_Core_Controller_Varien_Front->dispatch()
+#5 C:\xampp\htdocs\magento\app\Mage.php(683): Mage_Core_Model_App->run(Array)
+#6 C:\xampp\htdocs\magento\index.php(83): Mage::run('', 'store')
+#7 {main}";s:3:"url";s:94:"/magento/index.php/module1/adminhtml_module1/delete/id/3/key/1be550f5180dec9eba3bd2c06eca98f0/";s:11:"script_name";s:18:"/magento/index.php";s:4:"skin";s:5:"admin";}

@@ -1,0 +1,54 @@
+2021-03-24T06:20:46+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 35: parser error : Opening and ending tag mismatch: config line 2 and acl  in C:\xampp\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2021-03-24T06:20:46+00:00 ERR (3): Warning: simplexml_load_string(): 		&lt;/acl&gt;  in C:\xampp\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2021-03-24T06:20:46+00:00 ERR (3): Warning: simplexml_load_string(): 		      ^  in C:\xampp\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2021-03-24T06:20:46+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 36: parser error : Extra content at the end of the document  in C:\xampp\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2021-03-24T06:20:46+00:00 ERR (3): Warning: simplexml_load_string(): 	&lt;/adminhtml&gt;  in C:\xampp\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2021-03-24T06:20:46+00:00 ERR (3): Warning: simplexml_load_string(): 	^  in C:\xampp\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2021-03-24T17:19:37+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 24: parser error : Opening and ending tag mismatch: blocks line 20 and global  in C:\xampp\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2021-03-24T17:19:37+00:00 ERR (3): Warning: simplexml_load_string(): 	&lt;/global&gt;  in C:\xampp\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2021-03-24T17:19:37+00:00 ERR (3): Warning: simplexml_load_string(): 	         ^  in C:\xampp\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2021-03-24T17:19:37+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 60: parser error : Opening and ending tag mismatch: global line 20 and config  in C:\xampp\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2021-03-24T17:19:37+00:00 ERR (3): Warning: simplexml_load_string(): &lt;/config&gt;  in C:\xampp\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2021-03-24T17:19:37+00:00 ERR (3): Warning: simplexml_load_string():          ^  in C:\xampp\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2021-03-24T17:19:37+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 61: parser error : EndTag: '&lt;/' not found  in C:\xampp\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2021-03-24T17:19:37+00:00 ERR (3): Warning: simplexml_load_string():   in C:\xampp\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2021-03-24T17:19:37+00:00 ERR (3): Warning: simplexml_load_string(): ^  in C:\xampp\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2021-04-02T05:59:12+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 37: parser error : Opening and ending tag mismatch: product line 37 and catalog  in C:\xampp\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2021-04-02T05:59:12+00:00 ERR (3): Warning: simplexml_load_string(): 						&lt;product&gt;Ccc_Change_Model_Resource_Change&lt;/catalog&gt;  in C:\xampp\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2021-04-02T05:59:12+00:00 ERR (3): Warning: simplexml_load_string(): 						                                                   ^  in C:\xampp\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2021-04-02T05:59:42+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 37: parser error : Opening and ending tag mismatch: product line 37 and catalog  in C:\xampp\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2021-04-02T05:59:42+00:00 ERR (3): Warning: simplexml_load_string(): 						&lt;product&gt;Ccc_Change_Model_Resource_Change&lt;/catalog&gt;  in C:\xampp\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2021-04-02T05:59:42+00:00 ERR (3): Warning: simplexml_load_string(): 						                                                   ^  in C:\xampp\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2021-04-02T06:01:20+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 37: parser error : Opening and ending tag mismatch: product line 37 and catalog  in C:\xampp\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2021-04-02T06:01:20+00:00 ERR (3): Warning: simplexml_load_string(): 						&lt;product&gt;Ccc_Change_Model_Resource_Change&lt;/catalog&gt;  in C:\xampp\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2021-04-02T06:01:20+00:00 ERR (3): Warning: simplexml_load_string(): 						                                                   ^  in C:\xampp\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2021-04-02T06:01:22+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 37: parser error : Opening and ending tag mismatch: product line 37 and catalog  in C:\xampp\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2021-04-02T06:01:22+00:00 ERR (3): Warning: simplexml_load_string(): 						&lt;product&gt;Ccc_Change_Model_Resource_Change&lt;/catalog&gt;  in C:\xampp\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2021-04-02T06:01:22+00:00 ERR (3): Warning: simplexml_load_string(): 						                                                   ^  in C:\xampp\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2021-04-02T06:01:33+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 37: parser error : Opening and ending tag mismatch: product line 37 and catalog  in C:\xampp\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2021-04-02T06:01:33+00:00 ERR (3): Warning: simplexml_load_string(): 						&lt;product&gt;Ccc_Change_Model_Resource_Change&lt;/catalog&gt;  in C:\xampp\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2021-04-02T06:01:33+00:00 ERR (3): Warning: simplexml_load_string(): 						                                                   ^  in C:\xampp\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2021-04-02T06:02:03+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 37: parser error : Opening and ending tag mismatch: product line 37 and catalog  in C:\xampp\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2021-04-02T06:02:03+00:00 ERR (3): Warning: simplexml_load_string(): 						&lt;product&gt;Ccc_Change_Model_Resource_Change&lt;/catalog&gt;  in C:\xampp\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2021-04-02T06:02:03+00:00 ERR (3): Warning: simplexml_load_string(): 						                                                   ^  in C:\xampp\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2021-04-02T06:02:46+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 37: parser error : Opening and ending tag mismatch: product line 37 and catalog  in C:\xampp\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2021-04-02T06:02:46+00:00 ERR (3): Warning: simplexml_load_string(): 						&lt;product&gt;Ccc_Change_Model_Resource_Change&lt;/catalog&gt;  in C:\xampp\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2021-04-02T06:02:46+00:00 ERR (3): Warning: simplexml_load_string(): 						                                                   ^  in C:\xampp\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2021-04-02T06:02:49+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 37: parser error : Opening and ending tag mismatch: product line 37 and catalog  in C:\xampp\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2021-04-02T06:02:49+00:00 ERR (3): Warning: simplexml_load_string(): 						&lt;product&gt;Ccc_Change_Model_Resource_Change&lt;/catalog&gt;  in C:\xampp\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2021-04-02T06:02:49+00:00 ERR (3): Warning: simplexml_load_string(): 						                                                   ^  in C:\xampp\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2021-04-02T06:05:11+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 37: parser error : Opening and ending tag mismatch: product line 37 and catalog  in C:\xampp\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2021-04-02T06:05:11+00:00 ERR (3): Warning: simplexml_load_string(): 						&lt;product&gt;Ccc_Change_Model_Resource_Change&lt;/catalog&gt;  in C:\xampp\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2021-04-02T06:05:11+00:00 ERR (3): Warning: simplexml_load_string(): 						                                                   ^  in C:\xampp\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2021-04-02T06:05:14+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 37: parser error : Opening and ending tag mismatch: product line 37 and catalog  in C:\xampp\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2021-04-02T06:05:14+00:00 ERR (3): Warning: simplexml_load_string(): 						&lt;product&gt;Ccc_Change_Model_Resource_Change&lt;/catalog&gt;  in C:\xampp\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2021-04-02T06:05:14+00:00 ERR (3): Warning: simplexml_load_string(): 						                                                   ^  in C:\xampp\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2021-04-02T06:05:23+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 37: parser error : Opening and ending tag mismatch: product line 37 and catalog  in C:\xampp\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2021-04-02T06:05:23+00:00 ERR (3): Warning: simplexml_load_string(): 						&lt;product&gt;Ccc_Change_Model_Resource_Change&lt;/catalog&gt;  in C:\xampp\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2021-04-02T06:05:23+00:00 ERR (3): Warning: simplexml_load_string(): 						                                                   ^  in C:\xampp\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2021-04-02T06:05:23+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 41: parser error : Opening and ending tag mismatch: product line 37 and catalog  in C:\xampp\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2021-04-02T06:05:23+00:00 ERR (3): Warning: simplexml_load_string(): 			&lt;/catalog&gt;  in C:\xampp\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2021-04-02T06:05:23+00:00 ERR (3): Warning: simplexml_load_string(): 			          ^  in C:\xampp\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2021-04-02T06:05:36+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 37: parser error : Opening and ending tag mismatch: product line 37 and catalog  in C:\xampp\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2021-04-02T06:05:36+00:00 ERR (3): Warning: simplexml_load_string(): 						&lt;product&gt;Ccc_Change_Model_Resource_Change&lt;/catalog&gt;  in C:\xampp\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2021-04-02T06:05:36+00:00 ERR (3): Warning: simplexml_load_string(): 						                                                   ^  in C:\xampp\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510

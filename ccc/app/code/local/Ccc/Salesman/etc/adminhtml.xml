@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<config>
+	<menu>
+		<salesman>
+			<title>Salesman</title>
+			<sort_order>71</sort_order>
+			<children>
+				<salesman>
+					<title>Manage Salesman</title>
+					<sort_order>0</sort_order>
+					<action>*/salesman</action>
+				</salesman>
+				<salesman_attribute>
+					<title>Attribute</title>
+					<sort_order>0</sort_order>
+					<children>
+						<salesman_attribute>
+							<title>Manage Attribute</title>
+							<sort_order>10</sort_order>
+							<action>*/salesman_attribute</action>
+						</salesman_attribute>
+						<salesman_attribute_set>
+							<title>Manage Attribute Set</title>
+							<sort_order>10</sort_order>
+							<action>*/salesman_attribute</action>
+						</salesman_attribute_set>
+					</children>
+				</salesman_attribute>
+			</children>
+		</salesman>
+	</menu>
+</config>

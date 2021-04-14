@@ -1,0 +1,51 @@
+<?xml version="1.0" ?>
+<config>
+	<modules>
+		<Ccc_Change>
+			<version>0.0.1</version>
+		</Ccc_Change>
+	</modules>
+	<admin>
+		<routers>
+			<adminhtml>
+				<args>
+					<modules>
+						<catalog_product before="Mage_Adminhtml">Ccc_Change_Adminhtml</catalog_product>
+					</modules>
+				</args>
+			</adminhtml>
+		</routers>
+	</admin>
+	<global>
+		<blocks>
+			<ccc_change>
+				<class>Ccc_Change_Block</class>
+			</ccc_change>
+			<adminhtml>
+				<rewrite>
+					<catalog_product_grid>Ccc_Change_Block_Adminhtml_Change_Grid</catalog_product_grid>
+				</rewrite>
+			</adminhtml>
+		</blocks>
+		<models>
+			<catalog>
+				<rewrite>
+					<product>Ccc_Change_Model_Change</product>
+				</rewrite>
+			</catalog>
+			<catalog_resource>
+				<rewrite>
+					<product>Ccc_Change_Model_Resource_Change</product>
+					<product_collection>Ccc_Change_Model_Resource_Change_Collection</product_collection>
+				</rewrite>
+			</catalog_resource>
+		</models>
+		<helpers>
+			<catalog>
+				<rewrite>
+					<data>Ccc_Change_Helper_Data</data>
+				</rewrite>
+			</catalog>
+		</helpers>
+	</global>
+</config>

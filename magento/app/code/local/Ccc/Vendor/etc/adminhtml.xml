@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+	<menu>
+		<ccc_vendor>
+			<title>Vendor</title>
+			<sort_order>101</sort_order>
+			<children>
+				<items>
+					<title>Manage Vendor</title>
+					<sort_order>71</sort_order>
+					<action>vendor/adminhtml_vendor</action>
+				</items>
+			</children>
+		</ccc_vendor>
+	</menu>
+	<acl>
+		<resources>
+			<all>All Everything</all>
+			<admin>
+				<children>
+					<ccc_vendor>
+						<title>Vendor Module</title>
+						<sort_order>81</sort_order>
+					</ccc_vendor>
+				</children>
+			</admin>
+		</resources>
+	</acl>
+</config>

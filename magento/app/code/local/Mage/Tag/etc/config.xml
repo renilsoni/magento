@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<config>
+	<modules>
+		<Mage_Tag>
+			<version>0.0.1</version>
+		</Mage_Tag>
+	</modules>
+	<admin>
+		<routers>
+			<adminhtml>
+				<args>
+					<modules>
+						<Mage_Tag before="Mage_Adminhtml">Mage_Tag</Mage_Tag>
+					</modules>
+				</args>
+			</adminhtml>
+		</routers>
+	</admin>
+	<!-- <global>
+		<blocks>
+			<mage_change>
+				<class>Mage_Change_Block</class>
+			</mage_change>
+			<adminhtml>
+				<rewrite>
+					<tag_edit>Mage_Change_Block_Adminhtml_Change_Edit</tag_edit>
+					<tag_edit_form>Mage_Change_Block_Adminhtml_Change_Edit_Form</tag_edit_form>
+				</rewrite>
+			</adminhtml>
+		</blocks>
+
+		<models>
+			<tag>
+				<rewrite>
+					<tag>Mage_Change_Model_Change</tag>
+				</rewrite>
+			</tag>
+			<tag_resource>
+				<rewrite>
+					<tag>Mage_Change_Model_Resource_Change</tag>
+					<tag_collection>Mage_Change_Model_Resource_Change_Collection</tag_collection>
+				</rewrite>
+			</tag_resource>
+		</models>
+	</global> -->
+</config>

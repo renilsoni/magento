@@ -1,0 +1,61 @@
+<?xml version="1.0"?>
+<config>
+	<modules>
+		<Mage_Practice>
+			<version>0.0.1</version>
+		</Mage_Practice>
+	</modules>
+	<admin>
+		<routers>
+			<practice>
+				<use>admin</use>
+				<args>
+					<module>Mage_Practice</module>
+					<frontName>practice</frontName>
+				</args>
+			</practice>
+		</routers>
+	</admin>
+	<adminhtml>
+		<menu>
+			<mage_module1>
+				<children>
+					<practice>
+						<title>Manage Practice</title>
+						<sort_order>0</sort_order>
+						<action>practice/adminhtml_practice</action>
+					</practice>
+				</children>
+			</mage_module1>
+		</menu>
+		<acl>
+			<resources>
+				<all>
+					<title>All Everything</title>
+				</all>
+				<admin>
+					<children>
+						<mage_practice>
+							<title>Manage Practice</title>
+							<sort_order>0</sort_order>
+						</mage_practice>	
+					</children>
+				</admin>
+			</resources>
+		</acl>
+		<!-- <layout>
+			<updates>
+				<mage_practice>
+					<file>practice.xml</file>
+				</mage_practice>
+			</updates>
+		</layout> -->
+	</adminhtml>
+	<global>
+		<blocks>
+			<mage_practice>
+				<class>Mage_Practice_Block</class>
+			</mage_practice>
+		</blocks>
+	</global>
+</config>

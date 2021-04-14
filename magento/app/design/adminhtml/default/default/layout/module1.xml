@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<layout version="0.0.1">
+	<module1_adminhtml_module1_index>
+		<reference name="content">
+			<block type="mage_module1/adminhtml_module1" name="module1" />
+		</reference>
+	</module1_adminhtml_module1_index>
+	<module1_adminhtml_module1_edit>
+		<reference name="content">
+			<block type="mage_module1/adminhtml_module1_edit" name="edit" />
+		</reference>
+	</module1_adminhtml_module1_edit>
+</layout>

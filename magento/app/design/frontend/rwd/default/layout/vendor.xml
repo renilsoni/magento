@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<layout version="1.0">
+	<vendor_adminhtml_index>
+		<reference name="content">
+			<block type="vendor/adminhtml_vendor" name="vendor" />
+		</reference>
+	</vendor_adminhtml_index>
+</layout>
+ut> -->
+

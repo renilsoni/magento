@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+<config>
+	<modules>
+		<Mage_Attribute>
+			<version>0.0.2</version>
+		</Mage_Attribute>
+	</modules>
+
+	<admin>
+		<routers>
+			<attribute>
+				<use>admin</use>
+				<args>
+					<module>Mage_Attribute</module>
+					<frontName>attribute</frontName>
+				</args>
+			</attribute>
+		</routers>
+	</admin>
+
+	<adminhtml>
+		<menu>
+			<mage_module1>
+				<children>
+					<attribute>
+						<title>Manage Attribute</title>
+						<sort_order>0</sort_order>
+						<action>attribute/adminhtml_attribute</action>
+					</attribute>
+				</children>
+			</mage_module1>
+		</menu>
+	</adminhtml>
+
+	<global>
+		<blocks>
+			<mage_attribute>
+				<class>Mage_Attribute_Block</class>
+			</mage_attribute>
+		</blocks>
+		<models>
+			<mage_attribute>
+				<class>Mage_Attribute_Model</class>
+				<resourceModel>mage_attribute_resource</resourceModel>
+			</mage_attribute>
+			<mage_attribute_resource>
+				<class>Mage_Attribute_Model_Resource</class>
+				<entities>
+					<attribute>
+						<table>mage_attribute</table>
+					</attribute>
+				</entities>
+			</mage_attribute_resource>
+		</models>
+		<resources>
+			<attribute_setup>
+				<setup>
+					<module>Mage_Attribute</module>
+				</setup>
+			</attribute_setup>
+		</resources>
+	</global>
+</config>
